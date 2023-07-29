@@ -8,6 +8,9 @@ body {
   background-repeat: no-repeat;
 }
 
+.tv_slider .slider-box {
+  padding: 150px 0;
+}
 .tv_slider .slider-box .slider-text {
   color: #fff;
   font-family: Poppins;
@@ -39,9 +42,13 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding: 10px 2.5rem;
+  border: none;
 }
 .tv_slider .slider-box .btn-box .button-tip-two {
-  background: #ffffff;
+  border: 1px solid #ffffff;
+  background: transparent;
+  padding: 10px 2.5rem;
   border-radius: 30px;
   color: #fff;
   font-family: Poppins;
