@@ -1,0 +1,52 @@
+body {
+  background: #020407;
+}
+
+.body-background {
+  background-image: url("../img/body-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tv_slider .slider-box .slider-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tv_slider .slider-box .slider-content {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.tv_slider .slider-box .btn-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.tv_slider .slider-box .btn-box .button-tip-one {
+  background: #ff5c00;
+  border-radius: 30px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tv_slider .slider-box .btn-box .button-tip-two {
+  background: #ffffff;
+  border-radius: 30px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
