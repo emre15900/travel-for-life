@@ -398,7 +398,7 @@ body {
 }
 
 .navbar {
-  background-color: #333;
+  background-color: transparent !important;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
