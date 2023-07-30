@@ -462,4 +462,10 @@ body {
     font-size: 30px;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  #navItems {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
