@@ -11,6 +11,7 @@ body {
 .tv_slider .slider-box {
   padding: 150px 0;
 }
+
 .tv_slider .slider-box .slider-text {
   color: #fff;
   font-family: Poppins;
@@ -19,6 +20,7 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
 .tv_slider .slider-box .slider-content {
   color: #fff;
   font-family: Poppins;
@@ -26,13 +28,19 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: 30px;
 }
+
 .tv_slider .slider-box .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
-  margin-top: 20px;
 }
+
 .tv_slider .slider-box .btn-box .button-tip-one {
   background: #ff5c00;
   border-radius: 30px;
@@ -45,6 +53,7 @@ body {
   padding: 10px 2.5rem;
   border: none;
 }
+
 .tv_slider .slider-box .btn-box .button-tip-two {
   border: 1px solid #ffffff;
   background: transparent;
@@ -56,4 +65,299 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.tv_slider .slider-box .watch-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.tv_slider .slider-box .watch-box .watch-intro {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1.2rem;
+}
+
+.tv_Gallery-box img {
+  height: 100%;
+  max-height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.trip-package {
+  padding: 0 200px;
+}
+
+.trip-package .package-box .title {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.trip-package .singapore {
+  border-radius: 30px;
+  background: #ff5c00;
+  padding: 70px 40px;
+}
+
+.trip-package .singapore .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.trip-package .singapore .content {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.trip-package .singapore .button-tip-two {
+  border: 1px solid #ffffff;
+  background: transparent;
+  padding: 10px 2.5rem;
+  border-radius: 30px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.trip-package .lumpur {
+  border-radius: 30px;
+  background: #fff;
+  padding: 70px 40px;
+  margin-top: 2rem;
+}
+
+.trip-package .lumpur .title {
+  color: #ff5c00;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.trip-package .lumpur .content {
+  color: #ff5c00;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.trip-package .lumpur .button-tip-two {
+  border: 1px solid #ff5c00;
+  background: transparent;
+  padding: 10px 2.5rem;
+  border-radius: 30px;
+  color: #ff5c00;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.trip-package .lumpur-box {
+  margin-top: 2rem;
+}
+
+.tv-blog {
+  padding: 0 200px;
+}
+
+.tv-blog .blog-img {
+  margin-top: 80px;
+}
+
+.tv-blog .blog-box {
+  margin-top: 80px;
+}
+
+.tv-blog .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.tv-blog .blog-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.tv-blog .blog-box .sub-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.tv-blog .blog-box .tv-hr {
+  border-radius: 16px;
+  background: #ff5c00;
+  width: 80%;
+  height: 5px;
+}
+
+.tv-blog .blog-box .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.tv-blog .blog-box .content-box .content {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tv-hr {
+  width: 100%;
+  height: 1px;
+  background: #ffffff;
+  margin-top: 8rem;
+}
+
+.tv-footer {
+  padding: 200px 0 30px 0;
+}
+
+.tv-footer .footer-first-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.tv-footer .footer-first-box .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65px;
+}
+
+.tv-footer .footer-first-box .tv-hr {
+  border-radius: 16px;
+  background: #ff5c00;
+  width: 80%;
+  height: 5px;
+}
+
+.tv-footer .footer-first-box .content {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tv-footer .footer-link-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+}
+
+.tv-footer .footer-link-box .first-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tv-footer .footer-link-box .first-links .footer-p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tv-footer .button-tip-one {
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 30px;
+  color: #ff5c00;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 2.5rem;
+  border: none;
+  width: 50%;
+}
+
+.tv-footer .copyright {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7rem;
+}
+/*# sourceMappingURL=style.css.map */
